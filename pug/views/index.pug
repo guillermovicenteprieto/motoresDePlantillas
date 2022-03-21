@@ -1,0 +1,11 @@
+html 
+    include header.pug
+    body
+        include navbar.pug
+        div.container
+            if viewProduct 
+                include form.pug
+            else
+                include listProducts.pug
+        
+
